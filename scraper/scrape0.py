@@ -9,6 +9,8 @@ Created on Wed Aug 22 13:30:02 2018
 from newspaper import Article
 import cfscrape
 
+from scraper.scrape1 import db
+
 root='http://www.syriahr.com'
 scraper=cfscrape.create_scraper(root)
 
